@@ -1,0 +1,90 @@
+    1  clear
+    2  git log
+    3  ls
+    4  cd Desktop/
+    5  cd Desktop/
+    6  cd ..
+    7  ls
+    8  ls -a
+    9  ls ..
+   10  cd Desktop
+   11  pwd
+   12  cd 'Área de trabalho'
+   13  cd .
+   14  pwd
+   15  cd ..
+   16  cd..
+   17  cd ..
+   18  ps
+   19  pwd
+   20  cd 'C:\User'
+   21  clear
+   22  git log
+   23  cd ~/Desktop/Curso_Git
+   24  git log
+   25  cd ~/Desktop/Curso_Git
+   26  git log
+   27  cd ~/Desktop/Curso_Git
+   28  git log --pretty=oneline
+   29  git log --stat
+   30  git log -p
+   31  git log --pretty=oneline -2
+   32  git log --pretty=oneline -3
+   33  git log --pretty=oneline -4
+   34  git log --since==2.minutes
+   35  git log --since==20.minutes
+   36  git log --since==2.week
+   37  git log --since=author
+   38  git log -auhor='elvin conopoy'
+   39  git log -author='elvin conopoy'
+   40  git log --author='elvin conopoy'
+   41  git status
+   42  touch teste
+   43  git add
+   44  git add .
+   45  git status
+   46  git reset --soft HEAD~
+   47  git log
+   48  git status
+   49  git commit -m 'Commit de teste'
+   50  git status
+   51  git log
+   52  git reset --hard HEAD~
+   53  git status
+   54  git log
+   55  git log --pretty=oneline
+   56  git checkout HEAD~2
+   57  git status
+   58  git log
+   59  ls
+   60  git checkout HEAD~2
+   61  git checkout HEAD~
+   62  ls
+   63  git checkout master
+   64  clear
+   65  mkdir .vscode
+   66  touch conf.txt
+   67  mv conf.txt .vscode/
+   68  ls
+   69  ls
+   70  ls ,vscode/
+   71  ls .vscode/
+   72  ls
+   73  ls -a
+   74  git status
+   75  echo '.vscode/' > gitignore
+   76  git status
+   77  echo '.vscode/' > .gitignore
+   78  git status
+   79  echo 'gitignore' > .gitignore
+   80  git status
+   81  echo '.vscode/' > .gitignore
+   82  git status
+   83  touch pessoal.conf
+   84  echo 'gitignore' >> .gitignore
+   85  git status
+   86  echo 'pessoal.conf' >> .gitignore
+   87  git status
+   88  git add .gitignore
+   89  git commit -m'Adicionado arquivo .gitignore'
+   90   history > Aula_4.txt
